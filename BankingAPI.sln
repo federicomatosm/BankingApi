@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BankingAccount", "BankingAccount", "{19E14D8C-9A43-4428-B324-E47379F9F391}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{5257FFFD-63D8-498D-A62F-EEEAD418D774}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{BED1D81E-61F1-4659-8F67-DD7241EFD521}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Query", "Query", "{6747E0D8-4C92-4710-8C5F-0B4188AA9E70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRS", "CQRS", "{5B751C74-C70F-4793-87E9-E85B83AE94BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.Cqrs.Core", "Banking.Cqrs.Core\Banking.Cqrs.Core.csproj", "{4C7E8CBB-EC40-4199-951B-13687611BF21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C7E8CBB-EC40-4199-951B-13687611BF21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7E8CBB-EC40-4199-951B-13687611BF21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7E8CBB-EC40-4199-951B-13687611BF21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7E8CBB-EC40-4199-951B-13687611BF21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECCDD355-233B-4F3D-BEB4-86BF229A3E6A}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5257FFFD-63D8-498D-A62F-EEEAD418D774} = {19E14D8C-9A43-4428-B324-E47379F9F391}
+		{BED1D81E-61F1-4659-8F67-DD7241EFD521} = {5257FFFD-63D8-498D-A62F-EEEAD418D774}
+		{6747E0D8-4C92-4710-8C5F-0B4188AA9E70} = {5257FFFD-63D8-498D-A62F-EEEAD418D774}
+		{5B751C74-C70F-4793-87E9-E85B83AE94BF} = {19E14D8C-9A43-4428-B324-E47379F9F391}
+		{4C7E8CBB-EC40-4199-951B-13687611BF21} = {5B751C74-C70F-4793-87E9-E85B83AE94BF}
+	EndGlobalSection
+EndGlobal
