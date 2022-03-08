@@ -12,6 +12,12 @@
     <None Remove="Contracts\" />
     <None Remove="Aggregates\" />
     <None Remove="Contracts\Persistence\" />
+    <None Remove="Features\BankAccount\" />
+    <None Remove="Features\BankAccount\Commands\" />
+    <None Remove="Features\BankAccount\Commands\OpenAccount\" />
+    <None Remove="Features\BankAccount\Commands\CloseAccount\" />
+    <None Remove="Features\BankAccount\Commands\DepositFound\" />
+    <None Remove="Features\BankAccount\Commands\WithDrawnFund\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -19,6 +25,12 @@
     <Folder Include="Contracts\" />
     <Folder Include="Aggregates\" />
     <Folder Include="Contracts\Persistence\" />
+    <Folder Include="Features\BankAccount\" />
+    <Folder Include="Features\BankAccount\Commands\" />
+    <Folder Include="Features\BankAccount\Commands\DepositFund\" />
+    <Folder Include="Features\BankAccount\Commands\CloseAccount\" />
+    <Folder Include="Features\BankAccount\Commands\DepositFound\" />
+    <Folder Include="Features\BankAccount\Commands\WithDrawnFund\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Banking.Account.Command.Domain\Banking.Account.Command.Domain.csproj" />

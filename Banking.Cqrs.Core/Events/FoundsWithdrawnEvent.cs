@@ -1,11 +1,11 @@
 ﻿using System;
 namespace Banking.Cqrs.Core.Events
 {
-	public class FoundsWithdrawnEvent : BaseEvent
+	public class FundsWithdrawnEvent : BaseEvent
 	{
         public double Amount { get; set; }
 
-        public FoundsWithdrawnEvent(string id) : base(id)
+        public FundsWithdrawnEvent(string id) : base(id)
         {
         }
     }
