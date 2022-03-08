@@ -27,10 +27,10 @@
     <Folder Include="Contracts\Persistence\" />
     <Folder Include="Features\BankAccount\" />
     <Folder Include="Features\BankAccount\Commands\" />
-    <Folder Include="Features\BankAccount\Commands\DepositFund\" />
     <Folder Include="Features\BankAccount\Commands\CloseAccount\" />
-    <Folder Include="Features\BankAccount\Commands\DepositFound\" />
+    <Folder Include="Features\BankAccount\Commands\DepositFund\" />
     <Folder Include="Features\BankAccount\Commands\WithDrawnFund\" />
+    <Folder Include="Features\BankAccount\Commands\OpenAccount\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Banking.Account.Command.Domain\Banking.Account.Command.Domain.csproj" />
