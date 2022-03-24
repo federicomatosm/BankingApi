@@ -9,9 +9,25 @@
   <ItemGroup>
     <None Remove="Contracts\" />
     <None Remove="Contracts\Persistence\" />
+    <None Remove="Features\" />
+    <None Remove="Models\" />
+    <None Remove="Features\BankAccounts\" />
+    <None Remove="Features\BankAccounts\FindAccountByHolder\" />
+    <None Remove="Features\BankAccounts\FindAccountById\" />
+    <None Remove="Features\BankAccounts\FindAccountWithBalance\" />
+    <None Remove="Features\BankAccounts\FindAllAccounts\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Contracts\" />
     <Folder Include="Contracts\Persistence\" />
+    <Folder Include="Features\" />
+    <Folder Include="Features\BankAccounts\" />
+    <Folder Include="Features\BankAccounts\FindAccountByHolder\" />
+    <Folder Include="Features\BankAccounts\FindAccountById\" />
+    <Folder Include="Features\BankAccounts\FindAccountWithBalance\" />
+    <Folder Include="Features\BankAccounts\FindAllAccounts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Banking.Account.Query.Domain\Banking.Account.Query.Domain.csproj" />
   </ItemGroup>
 </Project>
