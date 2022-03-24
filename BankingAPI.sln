@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.Account.Query.Domai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.Account.Query.Application", "Banking.Account.Query.Application\Banking.Account.Query.Application.csproj", "{DE80E532-34DA-44D0-A5ED-BB6134AAE2D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.Account.Query.Infrastructure", "Banking.Account.Query.Infrastructure\Banking.Account.Query.Infrastructure.csproj", "{695784BC-6CAF-416B-AAC8-C844E59D8675}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,10 @@ Global
 		{DE80E532-34DA-44D0-A5ED-BB6134AAE2D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE80E532-34DA-44D0-A5ED-BB6134AAE2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE80E532-34DA-44D0-A5ED-BB6134AAE2D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{695784BC-6CAF-416B-AAC8-C844E59D8675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695784BC-6CAF-416B-AAC8-C844E59D8675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695784BC-6CAF-416B-AAC8-C844E59D8675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695784BC-6CAF-416B-AAC8-C844E59D8675}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,5 +113,6 @@ Global
 		{5A446709-6484-4FC7-AAE8-394187328174} = {6747E0D8-4C92-4710-8C5F-0B4188AA9E70}
 		{89490B3D-62B0-421B-A718-E93812C84D1D} = {695A743C-0F45-4BB9-A2D0-7D5E9F1F29F6}
 		{DE80E532-34DA-44D0-A5ED-BB6134AAE2D3} = {29F86FD5-AA6A-418B-A2D8-87AE0106803A}
+		{695784BC-6CAF-416B-AAC8-C844E59D8675} = {5A446709-6484-4FC7-AAE8-394187328174}
 	EndGlobalSection
 EndGlobal
