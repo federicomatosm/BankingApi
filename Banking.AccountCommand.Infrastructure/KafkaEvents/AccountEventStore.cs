@@ -1,19 +1,19 @@
-﻿using System;
-using Banking.Account.Command.Application.Aggregates;
+﻿using Banking.Account.Command.Application.Aggregates;
 using Banking.Account.Command.Application.Contracts.Persistence;
 using Banking.Account.Command.Domain;
 using Banking.Cqrs.Core.Events;
 using Banking.Cqrs.Core.Infrastructure;
 using Banking.Cqrs.Core.Producers;
 
+
 namespace Banking.AccountCommand.Infrastructure.KafkaEvents
 {
-	public class AccountEventStore : IEventStore
+    public class EventStore : IEventStore
 	{
         private readonly IEventStoreRepository _eventStoreRepository;
         private readonly IEventProducer _eventProducer;
 
-        public AccountEventStore(IEventStoreRepository eventStoreRepository, IEventProducer eventProducer)
+        public EventStore(IEventStoreRepository eventStoreRepository, IEventProducer eventProducer)
         {
             _eventStoreRepository = eventStoreRepository;
             _eventProducer = eventProducer;

@@ -1,5 +1,4 @@
-﻿using System;
-using Banking.Account.Command.Application.Aggregates;
+﻿using Banking.Account.Command.Application.Aggregates;
 using Banking.Account.Command.Application.Contracts.Persistence;
 using Banking.AccountCommand.Infrastructure.KafkaEvents;
 using Banking.AccountCommand.Infrastructure.Repositories;
@@ -26,7 +25,7 @@ namespace Banking.AccountCommand.Infrastructure
             services.AddScoped(typeof(IMongoRepository<>), typeof(MongoRepository<>));
             services.AddScoped<IEventProducer, AccountEventProducer>();
             services.AddTransient<IEventStoreRepository, EventStoreRepository>();
-            services.AddTransient<IEventStore, AccountEventStore>();
+            services.AddTransient<IEventStore, EventStore>();
             services.AddTransient<IEventSourcingHandler<AccountAggregate>, AccountEventSourcingHandler>();
 
 

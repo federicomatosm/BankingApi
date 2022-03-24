@@ -1,11 +1,10 @@
-﻿using System;
-using Banking.Account.Command.Application.Features.BankAccount.Commands.OpenAccount;
+﻿using Banking.Account.Command.Application.Features.BankAccount.Commands.OpenAccount;
 using Banking.Cqrs.Core.Domain;
 using Banking.Cqrs.Core.Events;
 
 namespace Banking.Account.Command.Application.Aggregates
 {
-	public class AccountAggregate : AggregateRoot
+    public class AccountAggregate : AggregateRoot
 	{
         public bool Active { get; set; }
         public double Balance { get; set; }
